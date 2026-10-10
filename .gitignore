@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.py[cod]
+
+# Local database
+*.sqlite3
+*.sqlite3-journal
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+mental/info.py
+
+# Google service-account / credential files
+mentalhealthproject-*.json
+credentials*.json
+*service-account*.json
+*serviceaccount*.json
